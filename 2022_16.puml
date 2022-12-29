@@ -1,0 +1,262 @@
+
+@startuml
+object "SZ" as sz
+sz : flow = 0
+object "SP" as sp
+sp : flow = 0
+object "LQ" as lq
+lq : flow = 0
+object "AT" as at
+at : flow = 17
+object "IR" as ir
+ir : flow = 0
+object "CF" as cf
+cf : flow = 0
+object "TE" as te
+te : flow = 0
+object "GQ" as gq
+gq : flow = 22
+object "DX" as dx
+dx : flow = 0
+object "AQ" as aq
+aq : flow = 0
+object "NE" as ne
+ne : flow = 0
+object "OC" as oc
+oc : flow = 4
+object "JO" as jo
+jo : flow = 0
+object "BR" as br
+br : flow = 0
+object "ZW" as zw
+zw : flow = 0
+object "TD" as td
+td : flow = 0
+object "BU" as bu
+bu : flow = 0
+object "QI" as qi
+qi : flow = 0
+object "PE" as pe
+pe : flow = 0
+object "WX" as wx
+wx : flow = 0
+object "IA" as ia
+ia : flow = 0
+object "TR" as tr
+tr : flow = 18
+object "JK" as jk
+jk : flow = 0
+object "UB" as ub
+ub : flow = 0
+object "KW" as kw
+kw : flow = 0
+object "AL" as al
+al : flow = 0
+object "VK" as vk
+vk : flow = 11
+object "FF" as ff
+ff : flow = 0
+object "MD" as md
+md : flow = 0
+object "VA" as va
+va : flow = 0
+object "CI" as ci
+ci : flow = 0
+object "LJ" as lj
+lj : flow = 0
+object "YL" as yl
+yl : flow = 23
+object "JH" as jh
+jh : flow = 0
+object "ES" as es
+es : flow = 13
+object "OM" as om
+om : flow = 0
+object "QV" as qv
+qv : flow = 0
+object "XN" as xn
+xn : flow = 7
+object "EY" as ey
+ey : flow = 10
+object "XJ" as xj
+xj : flow = 0
+object "HI" as hi
+hi : flow = 0
+object "VD" as vd
+vd : flow = 0
+object "RY" as ry
+ry : flow = 0
+object "YZ" as yz
+yz : flow = 0
+object "YA" as ya
+ya : flow = 12
+object "AZ" as az
+az : flow = 14
+object "ZL" as zl
+zl : flow = 0
+object "UE" as ue
+ue : flow = 0
+object "WZ" as wz
+wz : flow = 25
+object "EB" as eb
+eb : flow = 0
+object "UI" as ui
+ui : flow = 8
+object "AA" as aa
+aa : flow = 0
+object "OG" as og
+og : flow = 0
+object "RC" as rc
+rc : flow = 0
+object "JT" as jt
+jt : flow = 21
+object "DF" as df
+df : flow = 0
+object "RK" as rk
+rk : flow = 9
+object "OW" as ow
+ow : flow = 0
+object "XC" as xc
+xc : flow = 0
+
+sz -- gq
+sz -- yz
+sp -- lj
+sp -- aa
+lq -- ey
+lq -- jt
+at -- dx
+at -- bu
+at -- ne
+at -- br
+at -- td
+ir -- xn
+ir -- ui
+cf -- xn
+cf -- br
+te -- ya
+te -- ry
+gq -- sz
+gq -- aq
+gq -- ow
+gq -- xj
+dx -- hi
+dx -- at
+aq -- az
+aq -- gq
+ne -- at
+ne -- ia
+oc -- pe
+oc -- qv
+oc -- qi
+oc -- lj
+oc -- wx
+jo -- aa
+jo -- ui
+br -- cf
+br -- at
+zw -- jh
+zw -- ey
+td -- at
+td -- wx
+bu -- at
+bu -- es
+qi -- oc
+qi -- xn
+pe -- ci
+pe -- oc
+wx -- td
+wx -- oc
+ia -- ui
+ia -- ne
+tr -- hi
+jk -- qv
+jk -- ui
+ub -- om
+ub -- aa
+kw -- yl
+kw -- md
+al -- zl
+al -- wz
+vk -- om
+vk -- zl
+vk -- ci
+vk -- va
+vk -- xj
+ff -- vd
+ff -- aa
+md -- kw
+md -- ya
+va -- az
+va -- vk
+ci -- vk
+ci -- pe
+lj -- sp
+lj -- oc
+yl -- ow
+yl -- kw
+jh -- rk
+jh -- zw
+es -- bu
+om -- ub
+om -- vk
+qv -- oc
+qv -- jk
+xn -- qi
+xn -- vd
+xn -- ir
+xn -- cf
+xn -- og
+ey -- zw
+ey -- lq
+ey -- xc
+ey -- rc
+xj -- gq
+xj -- vk
+hi -- dx
+hi -- tr
+vd -- ff
+vd -- xn
+ry -- az
+ry -- te
+yz -- sz
+yz -- ya
+ya -- yz
+ya -- md
+ya -- te
+az -- aq
+az -- rc
+az -- ry
+az -- va
+zl -- al
+zl -- vk
+ue -- rk
+ue -- ui
+wz -- al
+eb -- aa
+eb -- xc
+ui -- ue
+ui -- jk
+ui -- ir
+ui -- jo
+ui -- ia
+aa -- ub
+aa -- jo
+aa -- ff
+aa -- eb
+aa -- sp
+og -- xn
+og -- df
+rc -- az
+rc -- ey
+jt -- lq
+df -- og
+df -- rk
+rk -- df
+rk -- jh
+rk -- ue
+ow -- yl
+ow -- gq
+xc -- ey
+xc -- eb
+@enduml
